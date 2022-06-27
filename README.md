@@ -43,11 +43,20 @@ to be Added
 
 ## Version Information:
 
-**0.0 - Initial Commit - 6/24/22**
+**0.0 - Initial Commit - 6/27/22**
     
-    * Added reset.css
-    * Linked to reset.css
     * Changed css and js links to relative pathing and placed them in proper folders
     * Tested to make sure links worked
     * Started Initial README.md
+
+**0.1 - Starting Page Setup and Framing**
+
+    * Added scores.html
+    * Added heading bar with page timer
+    * Added timer box inside heading
+    * Added countdown timer to timer box in script.js
+    * Added Score-list
+    * Added primary section for questions/answers
+    * Formatted content with flexboxes
+    * Tested at various screen widths
 

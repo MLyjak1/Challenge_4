@@ -60,3 +60,20 @@ to be Added
     * Formatted content with flexboxes
     * Tested at various screen widths
 
+**0.2 - Initial Javascript Responsiveness and Timer Countdown**
+    * Initialized timer countdown function in js file
+    * Added Game Over alert
+    * Tested timer and alert - Passed
+    * Added question array to js file
+    * Tested to ensure question would display
+    * Added Button Functionality to JS file
+    * Tested to ensure Button Click would display window - Passed
+    
+**0.3 - Added Questions/Answers and Button click functionality**
+    * Condensed Questions/answers/correctAnswers Arrays to Nested Object - "questions"
+    * Added placeholder questions to check for movement
+    * Moved button creation from HTML to script.JS
+    * Tested to make sure page would display first question - PASSED
+    * Tested to make sure button values were assigned correctly - PASSED
+    * Checked button click functionality returns correct value - PASSED
+    * Added comments to askQuestion function

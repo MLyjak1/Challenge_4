@@ -69,7 +69,7 @@ to be Added
     * Added Button Functionality to JS file
     * Tested to ensure Button Click would display window - Passed
     
-**0.3 - Added Questions/Answers and Button click functionality**
+**0.3 - Added Questions/Answers/CorrectAnswers and Button click functionality**
     * Condensed Questions/answers/correctAnswers Arrays to Nested Object - "questions"
     * Added placeholder questions to check for movement
     * Moved button creation from HTML to script.JS

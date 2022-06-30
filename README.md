@@ -69,7 +69,6 @@ to be Added
     * Added Button Functionality to JS file
     * Tested to ensure Button Click would display window - Passed
     
-<<<<<<< HEAD
 **0.3 - Added Questions/Answers/CorrectAnswers and Button click functionality**
     * Condensed Questions/answers/correctAnswers Arrays to Nested Object - "questions"
     * Added placeholder questions to check for movement
@@ -78,5 +77,3 @@ to be Added
     * Tested to make sure button values were assigned correctly - PASSED
     * Checked button click functionality returns correct value - PASSED
     * Added comments to askQuestion function
-=======
->>>>>>> refs/remotes/origin/main

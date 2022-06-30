@@ -1,6 +1,5 @@
 var countDown = document.querySelector("#countdown");
 var timeLeft = 30;
-<<<<<<< HEAD
 // var questionEl = document.querySelector("#question");
 // var answerBtn = document.querySelector("#answers")
 // var questionARR = ["What symbol do you use at the end of JavaScript commands?"];
@@ -20,13 +19,6 @@ var questions = [{
     corrAnswer: "4",
 }
 ]
-=======
-var questionEl = document.querySelector("#question");
-var answerBtn = document.querySelector("#answers")
-var questionARR = ["What symbol do you use at the end of JavaScript commands?"];
-var answerARR = [".", "/", "$", ";"];
-var corrAnsArr = [3]
->>>>>>> refs/remotes/origin/main
 
 function countdownClock() {
     var timerInterval = setInterval(function () {
@@ -48,7 +40,6 @@ function gameOver() {
 
 
 function askQuestion() {
-<<<<<<< HEAD
     var displayQuestion = questions[0].text;                    //Assign displayQuestion from the text-nested object
     var questionTextEl = document.getElementById("questionText");   //Pointer to #question ID box in HTML
     questionTextEl.textContent = displayQuestion;               //Display text for question in question box on page
@@ -67,29 +58,6 @@ function askQuestion() {
 // function answerQuest() {
 
 // }
-=======
-    for (var i = 0; i < questionARR.length; i++) {
-        questionEl.textContent = (questionARR[i]);
-        answerQuest();
-
-    }
-}
-
-function answerQuest() {
-    for(var i = 0; i<4; i++){
-    answerBtn.children[i].innerHTML = answerARR[i];
-    }
-    // Event when correct Answer Button is clicked  
-        console.log(answerBtn);
-        answerBtn.children[corrAnsArr[0]].addEventListener('click', function() {
-        window.alert("your answer is Correct");
-        // correctAnswer();
-    })
-    answerBtn.children[corrAnsArr[0]].addEventListener('click', function() {
-        window.alert("Incorrect");
-    })
-}
->>>>>>> refs/remotes/origin/main
 
 // function checkAnswer(){
 //     if ()
@@ -119,7 +87,6 @@ askQuestion();
         // console.log(answerARR.length);
     // }
 // }
-<<<<<<< HEAD
 
 
 // for (var i = 0; i < questionARR.length; i++) {
@@ -140,5 +107,3 @@ askQuestion();
 //     answerBtn.children[corrAnsArr[0]].addEventListener('click', function () {
 //         window.alert("Incorrect");
 //     })
-=======
->>>>>>> refs/remotes/origin/main
